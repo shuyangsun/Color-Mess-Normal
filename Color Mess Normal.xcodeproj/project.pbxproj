@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C20C251BEAC0A300ECACDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C20C241BEAC0A300ECACDE /* AppDelegate.swift */; };
+		10C20C271BEAC0A300ECACDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C20C261BEAC0A300ECACDE /* ViewController.swift */; };
+		10C20C2A1BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10C20C281BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodeld */; };
+		10C20C2D1BEAC0A300ECACDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C20C2B1BEAC0A300ECACDE /* Main.storyboard */; };
+		10C20C2F1BEAC0A300ECACDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C20C2E1BEAC0A300ECACDE /* Assets.xcassets */; };
+		10C20C3A1BEAC0A300ECACDE /* Color_Mess_NormalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C20C391BEAC0A300ECACDE /* Color_Mess_NormalTests.swift */; };
+		10C20C451BEAC0A300ECACDE /* Color_Mess_NormalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C20C441BEAC0A300ECACDE /* Color_Mess_NormalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C20C361BEAC0A300ECACDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C20C191BEAC0A300ECACDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C20C201BEAC0A300ECACDE;
+			remoteInfo = "Color Mess Normal";
+		};
+		10C20C411BEAC0A300ECACDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C20C191BEAC0A300ECACDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C20C201BEAC0A300ECACDE;
+			remoteInfo = "Color Mess Normal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C20C211BEAC0A300ECACDE /* Color Mess Normal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Mess Normal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C20C241BEAC0A300ECACDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10C20C261BEAC0A300ECACDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10C20C291BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Color_Mess_Normal.xcdatamodel; sourceTree = "<group>"; };
+		10C20C2C1BEAC0A300ECACDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10C20C2E1BEAC0A300ECACDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10C20C301BEAC0A300ECACDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C20C351BEAC0A300ECACDE /* Color Mess NormalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color Mess NormalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C20C391BEAC0A300ECACDE /* Color_Mess_NormalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Mess_NormalTests.swift; sourceTree = "<group>"; };
+		10C20C3B1BEAC0A300ECACDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C20C401BEAC0A300ECACDE /* Color Mess NormalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color Mess NormalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C20C441BEAC0A300ECACDE /* Color_Mess_NormalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Mess_NormalUITests.swift; sourceTree = "<group>"; };
+		10C20C461BEAC0A300ECACDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C20C1E1BEAC0A300ECACDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C20C321BEAC0A300ECACDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C20C3D1BEAC0A300ECACDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C20C181BEAC0A300ECACDE = {
+			isa = PBXGroup;
+			children = (
+				10C20C231BEAC0A300ECACDE /* Color Mess Normal */,
+				10C20C381BEAC0A300ECACDE /* Color Mess NormalTests */,
+				10C20C431BEAC0A300ECACDE /* Color Mess NormalUITests */,
+				10C20C221BEAC0A300ECACDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C20C221BEAC0A300ECACDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C20C211BEAC0A300ECACDE /* Color Mess Normal.app */,
+				10C20C351BEAC0A300ECACDE /* Color Mess NormalTests.xctest */,
+				10C20C401BEAC0A300ECACDE /* Color Mess NormalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C20C231BEAC0A300ECACDE /* Color Mess Normal */ = {
+			isa = PBXGroup;
+			children = (
+				10C20C241BEAC0A300ECACDE /* AppDelegate.swift */,
+				10C20C261BEAC0A300ECACDE /* ViewController.swift */,
+				10C20C2B1BEAC0A300ECACDE /* Main.storyboard */,
+				10C20C2E1BEAC0A300ECACDE /* Assets.xcassets */,
+				10C20C301BEAC0A300ECACDE /* Info.plist */,
+				10C20C281BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodeld */,
+			);
+			path = "Color Mess Normal";
+			sourceTree = "<group>";
+		};
+		10C20C381BEAC0A300ECACDE /* Color Mess NormalTests */ = {
+			isa = PBXGroup;
+			children = (
+				10C20C391BEAC0A300ECACDE /* Color_Mess_NormalTests.swift */,
+				10C20C3B1BEAC0A300ECACDE /* Info.plist */,
+			);
+			path = "Color Mess NormalTests";
+			sourceTree = "<group>";
+		};
+		10C20C431BEAC0A300ECACDE /* Color Mess NormalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10C20C441BEAC0A300ECACDE /* Color_Mess_NormalUITests.swift */,
+				10C20C461BEAC0A300ECACDE /* Info.plist */,
+			);
+			path = "Color Mess NormalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C20C201BEAC0A300ECACDE /* Color Mess Normal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C20C491BEAC0A300ECACDE /* Build configuration list for PBXNativeTarget "Color Mess Normal" */;
+			buildPhases = (
+				10C20C1D1BEAC0A300ECACDE /* Sources */,
+				10C20C1E1BEAC0A300ECACDE /* Frameworks */,
+				10C20C1F1BEAC0A300ECACDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Mess Normal";
+			productName = "Color Mess Normal";
+			productReference = 10C20C211BEAC0A300ECACDE /* Color Mess Normal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10C20C341BEAC0A300ECACDE /* Color Mess NormalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C20C4C1BEAC0A300ECACDE /* Build configuration list for PBXNativeTarget "Color Mess NormalTests" */;
+			buildPhases = (
+				10C20C311BEAC0A300ECACDE /* Sources */,
+				10C20C321BEAC0A300ECACDE /* Frameworks */,
+				10C20C331BEAC0A300ECACDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C20C371BEAC0A300ECACDE /* PBXTargetDependency */,
+			);
+			name = "Color Mess NormalTests";
+			productName = "Color Mess NormalTests";
+			productReference = 10C20C351BEAC0A300ECACDE /* Color Mess NormalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10C20C3F1BEAC0A300ECACDE /* Color Mess NormalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C20C4F1BEAC0A300ECACDE /* Build configuration list for PBXNativeTarget "Color Mess NormalUITests" */;
+			buildPhases = (
+				10C20C3C1BEAC0A300ECACDE /* Sources */,
+				10C20C3D1BEAC0A300ECACDE /* Frameworks */,
+				10C20C3E1BEAC0A300ECACDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C20C421BEAC0A300ECACDE /* PBXTargetDependency */,
+			);
+			name = "Color Mess NormalUITests";
+			productName = "Color Mess NormalUITests";
+			productReference = 10C20C401BEAC0A300ECACDE /* Color Mess NormalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C20C191BEAC0A300ECACDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Shuyang Sun";
+				TargetAttributes = {
+					10C20C201BEAC0A300ECACDE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					10C20C341BEAC0A300ECACDE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 10C20C201BEAC0A300ECACDE;
+					};
+					10C20C3F1BEAC0A300ECACDE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 10C20C201BEAC0A300ECACDE;
+					};
+				};
+			};
+			buildConfigurationList = 10C20C1C1BEAC0A300ECACDE /* Build configuration list for PBXProject "Color Mess Normal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10C20C181BEAC0A300ECACDE;
+			productRefGroup = 10C20C221BEAC0A300ECACDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C20C201BEAC0A300ECACDE /* Color Mess Normal */,
+				10C20C341BEAC0A300ECACDE /* Color Mess NormalTests */,
+				10C20C3F1BEAC0A300ECACDE /* Color Mess NormalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C20C1F1BEAC0A300ECACDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C20C2F1BEAC0A300ECACDE /* Assets.xcassets in Resources */,
+				10C20C2D1BEAC0A300ECACDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C20C331BEAC0A300ECACDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C20C3E1BEAC0A300ECACDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C20C1D1BEAC0A300ECACDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C20C2A1BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodeld in Sources */,
+				10C20C271BEAC0A300ECACDE /* ViewController.swift in Sources */,
+				10C20C251BEAC0A300ECACDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C20C311BEAC0A300ECACDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C20C3A1BEAC0A300ECACDE /* Color_Mess_NormalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C20C3C1BEAC0A300ECACDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C20C451BEAC0A300ECACDE /* Color_Mess_NormalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10C20C371BEAC0A300ECACDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C20C201BEAC0A300ECACDE /* Color Mess Normal */;
+			targetProxy = 10C20C361BEAC0A300ECACDE /* PBXContainerItemProxy */;
+		};
+		10C20C421BEAC0A300ECACDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C20C201BEAC0A300ECACDE /* Color Mess Normal */;
+			targetProxy = 10C20C411BEAC0A300ECACDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10C20C2B1BEAC0A300ECACDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C20C2C1BEAC0A300ECACDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C20C471BEAC0A300ECACDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		10C20C481BEAC0A300ECACDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C20C4A1BEAC0A300ECACDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Color Mess Normal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shuyangsun.Color-Mess-Normal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10C20C4B1BEAC0A300ECACDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Color Mess Normal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shuyangsun.Color-Mess-Normal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10C20C4D1BEAC0A300ECACDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Color Mess NormalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shuyangsun.Color-Mess-NormalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Mess Normal.app/Color Mess Normal";
+			};
+			name = Debug;
+		};
+		10C20C4E1BEAC0A300ECACDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Color Mess NormalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shuyangsun.Color-Mess-NormalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Mess Normal.app/Color Mess Normal";
+			};
+			name = Release;
+		};
+		10C20C501BEAC0A300ECACDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Color Mess NormalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shuyangsun.Color-Mess-NormalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Color Mess Normal";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		10C20C511BEAC0A300ECACDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Color Mess NormalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shuyangsun.Color-Mess-NormalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Color Mess Normal";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C20C1C1BEAC0A300ECACDE /* Build configuration list for PBXProject "Color Mess Normal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C20C471BEAC0A300ECACDE /* Debug */,
+				10C20C481BEAC0A300ECACDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C20C491BEAC0A300ECACDE /* Build configuration list for PBXNativeTarget "Color Mess Normal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C20C4A1BEAC0A300ECACDE /* Debug */,
+				10C20C4B1BEAC0A300ECACDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10C20C4C1BEAC0A300ECACDE /* Build configuration list for PBXNativeTarget "Color Mess NormalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C20C4D1BEAC0A300ECACDE /* Debug */,
+				10C20C4E1BEAC0A300ECACDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10C20C4F1BEAC0A300ECACDE /* Build configuration list for PBXNativeTarget "Color Mess NormalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C20C501BEAC0A300ECACDE /* Debug */,
+				10C20C511BEAC0A300ECACDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10C20C281BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10C20C291BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodel */,
+			);
+			currentVersion = 10C20C291BEAC0A300ECACDE /* Color_Mess_Normal.xcdatamodel */;
+			path = Color_Mess_Normal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10C20C191BEAC0A300ECACDE /* Project object */;
+}
